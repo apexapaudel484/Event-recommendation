@@ -1,8 +1,8 @@
-Recommendation_system:
+**Recommendation_system:**
 A recommendation system introduced to recommend the events to the user according to the similarity of the content they choose to view(i.e content based recommendation system). 
 The dataset used here contains data of events happening in USA extracted from eventribe website using Webscrapping.
 
-Collaborative_filtering:
+**Collaborative_filtering:**
 A user based recommendation system build using collaborative filtering approach where events are recommended on the basis of user who were interersted in more than 200 events and event in which more than 10 users were interested.
 The data used is from the competition to build event recommender system .
 

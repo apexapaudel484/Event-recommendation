@@ -1,5 +1,5 @@
 **Content_based:**
-A recommendation system introduced to recommend the events to the user according to the similarity of the content they choose to view(i.e content based recommendation system). 
+A recommendation system introduced to recommend the events to the user according to the similarity of the content they choose to view(i.e content based recommendation system). All the data like title , date , location , description are combined in a tag where we perform stemming and get the similarity (cosine distance) and recommend 5 most similar events.  
 The dataset used here contains data of events happening in USA extracted from eventribe website using Webscrapping.
 
 **Collaborative_filtering:**

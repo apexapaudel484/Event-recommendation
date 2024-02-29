@@ -15,3 +15,8 @@ train.csv = train.csv has six columns:  user, event, invited, timestamp, interes
 
 
 These are the mostly used data. The name of the events were not clarified in the data only event_id was provided.
+
+
+**Sentiment analysis**
+Perfomed using natural language processing .The dataset used is downloaded from yelp academic dataset provied by yelp. Here,I used bussiness data to see  business ,review dataset to see the review of the business , user dataset to see what user left the review . 
+The vader model is used to check the polarity of the review to classfiy if the review is negative, postivie or neutral . 

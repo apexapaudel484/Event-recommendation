@@ -20,7 +20,7 @@ These are the mostly used data. The name of the events were not clarified in the
 **Sentiment analysis**
 Perfomed using natural language processing .The dataset used is downloaded from yelp academic dataset provied by yelp. Here,I used bussiness data to see  business ,review dataset to see the review of the business , user dataset to see what user left the review . 
 
-To classfiy if the review is negative, positive or neutral i used two approaches:
+To classfiy the review as negative, positive or neutral i used two approaches:
 -The vader model which check the polarity of the review and give us positive,negative,neutral,compound value of the review . It uses bag of word approach and check polarity without context.
 -The roberta model which uses pre-trained model "sentiment anayalysis of twiter"  which is trained in larger data, this also takes context in consideration and classify those review in positive ,negative, neutral. Used Hugging Face Transformers library.
 

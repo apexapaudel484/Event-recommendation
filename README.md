@@ -15,8 +15,8 @@ user.csv = users.csv contains demographic data about our user.
 
 train.csv = train.csv has six columns:  user, event, invited, timestamp, interested, and not_interested.
 
-
 These are the mostly used data. The name of the events and user were not clarified in the data only event_id and user_id was provided.
+
 
 
 **Sentiment analysis:**

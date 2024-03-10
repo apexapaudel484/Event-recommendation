@@ -26,4 +26,6 @@ To classfiy the review as negative, positive or neutral i used two approaches:
 -The vader model which check the polarity of the review and give us positive,negative,neutral,compound value of the review . It uses bag of word approach and check polarity without context.
 -The roberta model which uses pre-trained model "sentiment anayalysis of twiter"  which is trained in larger data, this also takes context in consideration and classify those review in positive ,negative, neutral. Used Hugging Face Transformers library.
 and compared two model.
-After that , topic modelling is perfomed to identify key topics of review using LDA on the same data.
+
+In the same dataset topic modelling is perfomed to identify key topics of review using LDA .
+for this genesim is used to identify the topics and visualize the result.

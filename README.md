@@ -5,7 +5,7 @@ A recommendation system introduced to recommend the events to the user according
 The dataset used here contains data of events happening in USA extracted from eventribe website using Webscrapping.
 
 **Collaborative_filtering:**
-A user based recommendation system build using collaborative filtering approach where events are recommended on the basis of user who were interersted in more than 200 events and event in which more than 10 users were interested.Formed a cluster,computed cosine distance and recommend 5 events on the basis of similarity.
+A user based recommendation system build using collaborative filtering approach where events are recommended on the basis of user who were interersted in more than 200 events and event in which more than 10 users were interested.Events are grouped,computed cosine distance and recommend 5 events on the basis of similarity.
 The data used is from the competition to build event recommender system .
 
 The data contains : 
